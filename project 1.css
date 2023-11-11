@@ -1,0 +1,477 @@
+.container
+{
+  width:1170px;margin:auto
+}
+
+p
+{
+  color:#888 ;
+    line-height: 1.7
+}
+/*start nav*/
+.header
+{
+     
+}
+.header .nav
+{
+    overflow:hidden;
+  
+}
+
+.header .nav .logo
+{
+  float:left;
+    font-family:sans-serif;
+    text-transform:uppercase;
+    font-size: 45px;
+    padding-top: 20px;
+    color:#4f5963;
+  
+}
+.header .nav .logo span
+{
+    color:aqua
+}
+
+
+.header .nav .list
+{
+   float:right;
+    cursor: pointer
+}
+
+.header .nav .list ul li a
+{
+    text-decoration: none;
+   color:#4f5963;
+}
+.header .nav .list ul li a:hover
+{
+    color:aqua
+}
+
+.header .nav .list .active a
+{
+    color:aqua
+}
+
+.header .nav .list ul
+{
+list-style:none;
+      
+}
+.header .nav .list ul li 
+{
+    padding-right: 0;
+    display:inline-block;
+    margin:10px;
+    font-size: 30px;
+}
+
+/*end nav*/
+
+/*start head*/
+.header .head
+{
+  background-image:url("mountains.jpg");
+    height:1500px;
+    
+    text-align: center;
+    padding-top: 1000px;
+}
+.header .head h2
+{
+ color:aqua;
+ font-size: 40px;
+     margin-bottom:15px;
+    font-family: sans-serif;
+}
+.header .head p
+{
+    margin-bottom: 10px;
+    color:white;
+    font-size:20px;
+    font-weight:bolder
+}
+
+.header .head p:last-of-type
+{
+   margin-top: 0
+}
+.headericons i
+{
+    color:aqua;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.headericons .content
+{
+     background-color:lightgrey;  
+    overflow:hidden; 
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.headericons .content .headicon
+{
+    width:30%;
+    float: left;
+   text-align:center;
+    margin-left: 10%;
+       margin-right: 10%;
+}
+
+.headericons .content .headicon p
+{
+    margin-bottom: 50px
+}
+/*end head*/
+
+/*start serviceposition*/
+.serviceposition
+{
+
+    padding-top: 100px;
+    padding-bottom: 110px;
+}
+
+ .serviceposition .upelement 
+{
+    
+  position: absolute ;
+      z-index:2;
+  margin-left:435px;
+  margin-top:55px;
+    font-size: 25px;
+    color:#999
+}
+    
+ .serviceposition .downelement 
+{
+  position: absolute ;
+    z-index:1;
+      margin-left:450px;
+    font-size: 70px;
+   color:lightgray;
+    font-weight:lighter;
+    font-family: sans-serif;
+   
+    
+ 
+}
+
+/*end serviceposition*/
+
+/*start service*/
+
+.services
+{
+ margin-bottom: 50px;
+    overflow: hidden;
+    
+}
+ 
+
+.services .content
+{
+    width:50%;
+    float: left;
+   overflow: hidden
+    
+}
+
+.services  .content .servicesicons 
+{
+       width:10%;
+    float:left;
+    margin-top:25px;
+    color:aqua;
+    font-weight:bolder;
+    font-size:35px;
+margin-left:30%
+    
+}
+.services  .content .text
+{
+    width:60%;
+    float:right
+}
+
+/*end service*/
+
+/*start portfolioposition*/
+
+.background
+{
+    background-color:#e7eaed
+}
+.portfolioposition
+{
+   
+     padding-top: 60px;
+    padding-bottom: 145px;
+   
+}
+
+.portfolioposition .up
+{
+    
+  position: absolute ;
+    z-index: 2;
+ margin-left:420px;
+  margin-top:65px;
+    font-size: 25px;
+    color:#999
+}
+    
+.portfolioposition .down 
+{
+  position: absolute ;
+     z-index: 1;
+      margin-left:450px;
+    font-size: 80px;
+   color:lightgrey;
+    font-weight:lighter;
+    font-family: sans-serif;
+   
+   
+    
+ 
+}
+
+/*end portfolioposition*/
+
+/*start portfolio*/
+
+.portfolio 
+{
+    background-color:#e7eaed;
+    overflow:hidden;
+    padding-bottom: 10px
+   
+}
+
+
+.portfolio img
+{
+    width:550px;
+    height:300px;
+   
+    margin-bottom: 0
+}
+.portfolio .portfolio_pic
+{
+    width:50%;
+    float:left;
+    margin=right:10%;
+    
+      margin=left:10%;
+
+}
+
+.portfolio .portfolio_pic .underpic
+{
+    background-color: white;
+     width:550px;
+    margin-bottom: 40px
+    
+ 
+  
+}
+ .portfolio .portfolio_pic .underpic .h3_p
+{
+  padding-left:15px;
+    margin-right: 15px;
+  
+}
+.portfolio .portfolio_pic .underpic h3
+{
+    margin-top: 0;
+    padding-top:15px;
+     
+}
+.portfolio .portfolio_pic .underpic p
+{
+    padding-bottom: 15px  
+}
+
+/*end portfolio*/
+
+
+/*start aboutposition*/
+
+.aboutposition 
+{
+   
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+}
+
+
+.aboutposition .up
+{
+    
+ position: absolute;
+    z-index:2;
+   margin-left:475px;
+  margin-top:60px;
+    font-size: 20px;
+    color:#999
+}
+    
+.aboutposition .down 
+{
+  position: absolute ;
+     z-index:1;
+     margin-left:465px;
+    font-size: 70px;
+   color:lightgray;
+    font-weight:lighter;
+    font-family: sans-serif;
+}
+
+/*end aboutposition*/
+
+/*start about*/
+
+.about
+{ 
+    padding-top: 50px;
+    text-align:center
+}
+
+.about hr
+{
+    border-color:aqua;
+ 
+    width:50%
+}
+
+.about p:first-of-type
+{
+    color:#111
+
+}
+
+/*end about*/
+
+/*start contactposition*/
+
+.contactposition 
+{
+   background-color: #e7eaed;
+    padding-top: 40px;
+    padding-bottom: 85px;
+   
+}
+
+
+.contactposition .up
+{
+    
+ position: absolute;
+    z-index:2;
+   margin-left:485px;
+  margin-top:55px;
+    font-size: 20px;
+    color:#999
+   
+}
+    
+.contactposition .down 
+{
+  position: absolute ;
+     z-index:1;
+     margin-left:460px;
+    font-size: 70px;
+   color:lightgrey;
+    font-weight:lighter;
+    font-family: sans-serif;
+   
+   
+}
+
+/*end contactposition*/
+
+/*start contact*/
+
+.contact
+{
+    text-align: center;
+    background-color: #e7eaed;
+    padding-top: 50px;
+    margin-bottom: 0
+    
+}
+
+.contact p
+{
+   
+    margin-top:0;
+    margin-bottom: 0px;
+color:#4f5963;
+    font-family:arial;
+  font-weight:600;
+      font-size: 22px;
+    word-spacing: 0;
+   
+   
+}
+
+
+
+
+.contact ul
+{
+    list-style:none;
+    padding-bottom: 50px;
+    padding-top: 0px;
+    margin-bottom: 0
+  
+}
+
+.contact ul li
+{
+    display:inline-block;
+     font-size: 15px;
+    color:#4f5963;
+}
+
+.contact ul li span
+
+{
+    margin-left: -20px;
+    color:black
+}
+.contact a
+{
+    text-decoration: none;
+    color:aqua;
+    font-family:serif;
+    font-size: 30px;    
+}
+/*end contact*/
+
+/*start footer*/
+.footer
+{
+    text-align: center;
+    background-color:#4f5963;
+    padding-top: 20px;
+     padding-bottom: 8px;
+}
+
+.footer p
+{
+    margin-top:0;
+    color:#fff
+}
+
+.footer p span
+{
+    color:aqua
+}
+/*end footer*/
